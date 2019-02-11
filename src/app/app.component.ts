@@ -12,6 +12,7 @@ import { Component } from "@angular/core";
 
     <hr>
     <h1>Chapter One</h1>
+    <!--- Data Binding --->
     <h2 [class.text-error]="hasError">{{ "hello " + title }}</h2>
     <h2 [class]="textItalic">haha</h2>
     <h2 class="text-success">haha</h2>
