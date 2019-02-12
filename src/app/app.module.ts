@@ -11,6 +11,10 @@ import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 import { EmployeeService } from './employee.service';
 import { DepartmentListComponent } from './department-list/department-list.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ChapterOneComponent } from './chapter-one/chapter-one.component';
+import { ChapterTwoComponent } from './chapter-two/chapter-two.component';
+import { ChapterThreeComponent } from './chapter-three/chapter-three.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { DepartmentListComponent } from './department-list/department-list.compo
     TestComponent,
     EmployeeListComponent,
     EmployeeDetailComponent,
-    DepartmentListComponent
+    DepartmentListComponent,
+    PageNotFoundComponent,
+    ChapterOneComponent,
+    ChapterTwoComponent,
+    ChapterThreeComponent
   ],
   imports: [
     BrowserModule,
