@@ -10,13 +10,15 @@ import { TestComponent } from './test/test.component';
 import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 import { EmployeeService } from './employee.service';
+import { DepartmentListComponent } from './department-list/department-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
     EmployeeListComponent,
-    EmployeeDetailComponent
+    EmployeeDetailComponent,
+    DepartmentListComponent
   ],
   imports: [
     BrowserModule,

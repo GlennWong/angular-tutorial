@@ -3,18 +3,28 @@ import { Component } from "@angular/core";
 @Component({
   selector: "app-root",
   template: `
+    <h1>Chapter Four</h1>
+    <h2>Navigation And Routing</h2>
+    <nav>
+      <ul>
+        <li><a routerLink="/departments">Departments</a></li>
+        <li><a routerLink="/employees">Employees</a></li>
+      </ul>
+    </nav>
+    <hr />
     <router-outlet></router-outlet>
     <h1>Chapter Three</h1>
     <app-employee-list></app-employee-list>
     <app-employee-detail></app-employee-detail>
-    <hr>
+    <hr />
 
     <h1>Chapter Two</h1>
+    <h2>Service and Http observable</h2>
     <!--- Component Interaction --->
-    <app-test [parentData]="title" (childEvent)="message=$event"></app-test>
+    <app-test [parentData]="title" (childEvent)="message = $event"></app-test>
     <p>{{ message }}</p>
 
-    <hr>
+    <hr />
     <h1>Chapter One</h1>
     <!--- Data Binding --->
     <h2 [class.text-error]="hasError">{{ "hello " + title }}</h2>

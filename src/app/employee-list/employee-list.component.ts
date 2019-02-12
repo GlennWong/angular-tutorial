@@ -9,7 +9,7 @@ import { EmployeeService } from "../employee.service";
       <li>{{ employee.name }}</li>
     </ul>
   `,
-  styleUrls: ["./employee-list.component.scss"]
+  styles: []
 })
 export class EmployeeListComponent implements OnInit {
   public employees = [];
