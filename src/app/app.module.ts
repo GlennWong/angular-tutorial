@@ -16,6 +16,8 @@ import { ChapterOneComponent } from './chapter-one/chapter-one.component';
 import { ChapterTwoComponent } from './chapter-two/chapter-two.component';
 import { ChapterThreeComponent } from './chapter-three/chapter-three.component';
 import { DepartmentDetailComponent } from './department-detail/department-detail.component';
+import { DepartmentOverviewComponent } from './department-overview/department-overview.component';
+import { DepartmentContactComponent } from './department-contact/department-contact.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { DepartmentDetailComponent } from './department-detail/department-detail
     ChapterOneComponent,
     ChapterTwoComponent,
     ChapterThreeComponent,
-    DepartmentDetailComponent
+    DepartmentDetailComponent,
+    DepartmentOverviewComponent,
+    DepartmentContactComponent
   ],
   imports: [
     BrowserModule,
