@@ -15,6 +15,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { ChapterOneComponent } from './chapter-one/chapter-one.component';
 import { ChapterTwoComponent } from './chapter-two/chapter-two.component';
 import { ChapterThreeComponent } from './chapter-three/chapter-three.component';
+import { DepartmentDetailComponent } from './department-detail/department-detail.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ChapterThreeComponent } from './chapter-three/chapter-three.component';
     PageNotFoundComponent,
     ChapterOneComponent,
     ChapterTwoComponent,
-    ChapterThreeComponent
+    ChapterThreeComponent,
+    DepartmentDetailComponent
   ],
   imports: [
     BrowserModule,

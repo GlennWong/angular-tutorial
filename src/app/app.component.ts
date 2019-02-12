@@ -7,13 +7,14 @@ import { Component } from "@angular/core";
     <h2>Navigation And Routing</h2>
     <nav>
       <ul>
+        <li><a routerLink="/">Home</a></li>
         <li><a routerLink="/departments">Departments</a></li>
         <li><a routerLink="/employees">Employees</a></li>
         <li><a routerLink="/test">test</a></li>
-        <li><a routerLink="/ChapterOne">ChapterOne</a></li>
-        <li><a routerLink="/ChapterTwo">ChapterTwo</a></li>
-        <li><a routerLink="/ChapterThree">ChapterThree</a></li>
         <li><a routerLink="/asldkf">Page 404</a></li>
+        <li><a routerLink="/ChapterOne">Chapter One</a></li>
+        <li><a routerLink="/ChapterTwo">Chapter Two</a></li>
+        <li><a routerLink="/ChapterThree">Chapter Three</a></li>
       </ul>
     </nav>
     <hr />
